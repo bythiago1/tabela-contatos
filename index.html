@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Nome e Numero HTML + CSS + JS- EBAC</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tabela Contatos</h1>
+        </header>
+        <form id="form-ctt">
+            <input type="text" id="input-name" required placeholder="Nome">
+            <input type="tel" id="input-tel" required placeholder="Número do Telefone">
+            <button type="submit">Cadastrar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome do Cliente</th>
+                    <th>Número do Cliente</th>
+                </tr>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Números registrados</td>
+                        <td id="registrados">10</td>
+                    </tr>
+                </tfoot>
+            </thead>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
